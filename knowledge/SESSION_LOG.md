@@ -90,3 +90,7 @@
 
 ## 2026-10-05 · v59 settings + Message
 - Simos: suppress orange warning, compact Message output, internalise loads/slab/clear height/corridor/max unit width/common ratio/core area at the top. Done; 39 tests green. Soil pressure: no such input (piles only) - question to Simos. He must add a 'Message' output and may delete the 8 inputs on the component.
+
+
+## 2026-10-06 · GitHub
+- Repo massing-to-structure created by Simos (public, Python .gitignore). Initial v59 commit prepared locally (archive/ ignored, root README added); Simos pushes from his PC.

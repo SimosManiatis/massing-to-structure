@@ -9,3 +9,4 @@
 ## Rhino testing
 - The Grasshopper Script component loads src/structuralgen.py from disk (loader stub); edit the file, then re-run the component (computer use) and read the Report panel via Copy Data Only.
 - Never add, remove or reorder output branches or data columns (Support_Boxes, Apartment_Boxes, *_Data) without asking Simos first: his Grasshopper definition depends on them (v56 branch {3} broke it).
+- Git: repo https://github.com/SimosManiatis/massing-to-structure (public). The connected folder cannot delete files, so never run git inside it from the VM (locks/temp objects get stuck). Work in $HOME/sg with --work-tree=<folder>, then cp -r .git into the folder; Simos pushes from Windows. archive/ and _to_delete/ are ignored.
